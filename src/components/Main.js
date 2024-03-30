@@ -12,6 +12,7 @@ import { useNavigate } from 'react-router-dom';
   const navigate=useNavigate()
 
   const [cat,setCat]=useState('madhan')
+  console.log('ha ha ha')
 
 
   
