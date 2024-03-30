@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left:0;
+    z-index: 100;
+    padding:.5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0,.5);
+    background-color: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: greenyellow;
+}
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid greenyellow;
+    padding-bottom: 10px;
+
+}
+#navbarSupportedContent button{
+    background: greenyellow;
+    border-radius: 15px;
+    
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(Tha.webp);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+
+}
+#home h1{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #CCC,
+                 0px 2px 0px #CCC,
+                 0px 3px 0px #CCC, 
+                 0px 4px 0px #CCC,
+                 0px 5px 0px #CCC, 
+                 0px 6px 0px #CCC, 
+                 0px 7px 0px #CCC;
+    
+}
+#home p{
+    font-size: 18px;
+    color: white;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+    background: green !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0,0.5);
+
+}
+.map{
+    width: 100%;
+}
+#about{
+    background: linear-gradient(rgb(0, 156, 0),green);
+}
+#about h1{
+    font-weight: 800;
+    font-size: 30px;
+}
+#about p{
+    color: white;
+}
+#product{
+    background-color:gray;
+}
+#Product h1{
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: 700;
+}
+#product img{
+    height: 200px;
+    width: 200px;
+}
+.card{
+    height:250px !important;
+    width:250px !important;
+    background:white !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 60px;                 
+}
+
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0,.3),
+                inset -4px -4px 10px white;
+}
+.box{
+    padding:10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+form input{
+    margin-top: 20px;
+}
+form button{
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:4px; 
+}
+.mix{
+    mix-blend-mode: multiply;
+}
+iframe{
+    height: 500px;
+    width: 100%;
+}
+
+#footer li{
+    margin: 3px;
+    color: white;
+    
+}
+
+
+#footer{
+    height:fit-content;
+    background-color: black;
+    padding: 10px;
+}
+
+#footer{
+    letter-spacing: 3px;
+}
+
+
+#footer h1{
+    margin-left: 70px;
+}
+
+.a{
+    border-right: 2px solid white;
+    padding-right:50px;
+    padding-left:50px ;
+    
+}
+a{
+    margin: 10px;
+    color: blue;
+
+}
+.li2>li{
+
+    display: inline;
+    margin-right: 20px;
+   
+    
+}
+
+.li2{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+svg{
+
+    height: 20px;
+    width: 20px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col .btn{
+    text-align: center;
+}
+.card{
+    padding: 20px;
+}
+
+@media screen and (max-width:576px){
+
+    .a{
+        border-right:none;
+    }
+
+    .a{
+        border-bottom: 3px solid white;
+    } 
+}
