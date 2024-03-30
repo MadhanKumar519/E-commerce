@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 
 
  function Main(){
+  console.log("welcome home");
 
   const navigate=useNavigate()
 
@@ -44,7 +45,6 @@ import { useNavigate } from 'react-router-dom';
     navigate('/cah')
   }
 
-  console.log(cat)
 
   
   
